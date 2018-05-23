@@ -2,7 +2,7 @@
 
 ## Description
 
-This project ' Portfolio site' contains indian premier league site.It contains eight teams.When clicking on the any one of the team logo modal box is appeared on the screen and decribes about wikipedia of that team.
+This project ' Portfolio site' contains indian premier league site.It contains eight teams.When clicking on the any one of the team logo  is another tab is opened on the screen and decribes about wikipedia of that team.
 
 ## stack Used
 
