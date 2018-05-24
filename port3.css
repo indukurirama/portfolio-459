@@ -16,6 +16,10 @@
         left:0px;
         border-radius: 1000px;
     }
+    .page2{
+        display:flex;
+        flex-wrap: wrap;
+    }
     @media screen and (min-width:450px){
      .a{
         padding:15px; 
