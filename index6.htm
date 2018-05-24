@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <title>portfoloio</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="port3.css" >
+   </head>
+   <body >
+      <div class="page">
+         <div class="logo">
+             <img src = "https://bit.ly/2kelnOE" alt = "IPLlogo" width="100"  height="100" class="logo" >
+         </div>
+         <div class="a">
+            <h1>INDIAN PRIMIER LEAGUE 2018</h1>
+         </div>
+         <hr>
+         <div class="page2">
+         <div class=slides>
+            <img class="mySlides" src="https://bit.ly/2s0aGTs" alt="ipl cup" height="300">
+            <img class="mySlides" src="https://bit.ly/2rXdTUq" alt = "ipl team members" height="300">
+            <img class="mySlides" src="https://bit.ly/2s0DRp9" alt = "ipl team logos" height="300">
+            <img class="mySlides" src="https://bit.ly/2kdMDwR" alt = "ipl members" height="300">
+         </div>
+         <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+         </script>     
+         <p>The 2018 season of the Indian Premier League, also known as IPL 11, is the current eleventh season of the IPL, a professional Twenty20 cricket league established by the BCCI in 2007. The season, which is being held from 7 April to 27 May, saw the return of the Chennai Super Kings and the Rajasthan Royals after serving two years of suspension for the involvement of their respective owners in the 2013 IPL betting case. Star Sports purchased the media rights at ₹16,347.5 crore ($2.55 billion) for five years starting from 2018</p>
+         <h2>IPL TEAMS WIKIPEDIA</h2>
+         <div class="image">
+            <a href="https://bit.ly/2IZCmSR" target="blank"><img src="https://bit.ly/2rVdCR8" alt = "RCB" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2s0xgey" target="blank"><img src="https://bit.ly/2GDwk51" alt = "CSK" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2IGdv3b" target="blank"><img src="https://bit.ly/2IxW74u" alt = "MI" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2ojpRGR" target="blank"><img src="https://bit.ly/2rZXMof" alt = "DD" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2GKQWbS" target="blank"><img src="https://bit.ly/2ISjG7D" alt = "KXIP" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2GGYdta" target="blank"><img src="https://bit.ly/2IysC2G" alt = "SRH" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2KIU4qX" target="blank"><img src="https://bit.ly/2s3LP1Z" alt = "RR" height="100" width="100" class="v"></a>
+            <a href="https://bit.ly/2IFE3kR" target="blank"><img src="https://bit.ly/2kdp6fy" alt = "KKR" height="100" width="100" class="v"></a>
+         </div>
+         <h2>FORMAT:</h2>
+         <p>Eight teams are scheduled to play in 2018. The tournament involves each team playing every other team twice in a home-and-away, double round-robin format. At the conclusion of the double round-robin league, the top four teams on the basis of aggregate points qualify for the playoffs. In this stage, the top two teams compete with each other (in a match titled "Qualifier 1"), as do the remaining two teams (in a match titled "Eliminator"). While the winner of Qualifier 1 directly qualifies for the final match, the losing team gets another chance to qualify for the final match by playing the winning team of the Eliminator match; this match is titled Qualifier 2. The winner of this subsequent Qualifier 2 match moves onto the final match. The team that wins the final match is crowned the Indian Premier League winners.The schedule for the tournament was published on 14 February 2018.[5]</p>
+         <div class="foot">
+            <footer><h1>Best VS Best</h1></footer>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>
