@@ -1,43 +1,44 @@
-  .page{
+.page2 {
+        display:flex;
+        flex-wrap: wrap;
+    }  
+.page {
         border: 5px solid black;
         width:99%;
         height:auto;
         background-color:lightblue;
     }
-    .v{
+    .v {
         border-radius:100%;
         padding:10px;
     }
     body {
     text-align: center;
     }
-    .logo{
+    .logo {
         position:relative;
         left:0px;
         border-radius: 1000px;
     }
-    .page2{
-        display:flex;
-        flex-wrap: wrap;
-    }
+    
     @media screen and (min-width:450px){
-     .a{
+     .a {
         padding:15px; 
         top:10px;
         left:450px;
         color: blue;
         }     
     }
-    .mySlides{
+    .mySlides {
         width:100%;
     }
-    .slides{
+    .slides {
         max-width: 100%;
     }
     footer {
         color:red;
     }
-    .a{
+    .a 
         padding:15px; 
         top:10px;
         left:450px;
