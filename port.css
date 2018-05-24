@@ -1,36 +1,41 @@
-
+  .page{
+        border: 5px solid black;
+        width:99%;
+        height:auto;
+        background-color:lightblue;
+    }
+    .v{
+        border-radius:100%;
+        padding:10px;
+    }
     body {
-    background-color:steelblue;
-    text-align:center;
+    text-align: center;
     }
-    .logo {
-        border-radius:1000px;
-        border:auto blanchedalmond;
-    }
-    .port {
-        margin: 0 auto;
-        width:60em;
-        padding:20px;
-    }
-    p {
-        font-family: sans-serif;
-        color: black;
-    }
-    h2 {
-        text-align: left;
-        color:black;
-    }
-    .foot {
-       color:blue;
+    .logo{
+        position:relative;
+        left:0px;
+        border-radius: 1000px;
     }
     @media screen and (min-width:450px){
-    .a{
-        position:absolute;
-        top:30px;
+     .a{
+        padding:15px; 
+        top:10px;
         left:450px;
-        background-color:skyblue;
-      }     
+        color: blue;
+        }     
     }
-    .image {
-        padding:0px;
+    .mySlides{
+        width:100%;
+    }
+    .slides{
+        max-width: 100%;
+    }
+    footer {
+        color:red;
+    }
+    .a{
+        padding:15px; 
+        top:10px;
+        left:450px;
+        color: blue;
     }
